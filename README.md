@@ -1,6 +1,8 @@
 # Design Document
 ## Introduction
 ## Storyboard
+ ![Image of Story Board](Pictures/Story%20Board%20v0.1.png)
+Users will be able to select the Hemisphere and Time Zone from two dropdown menus. The user will be presented with infomration of all the constellations they can see at that location at the current time. Clicking on a star within that constellation will display more information on that star to the left of the contellation list.
 ## Functional Requirements
 ## Class Diagram
  ![Image of Class Diagram](Pictures/Class%20Diagram%20v0.1.png)
