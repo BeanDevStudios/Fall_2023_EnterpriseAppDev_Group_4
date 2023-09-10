@@ -55,5 +55,8 @@ Users will be able to select the Hemisphere and Time Zone from two dropdown menu
 | Nov 20 | UI Changes (As Needed) | Pending |
 | Nov 27 | Unit Testing / Bug Fixes | Pending |
 ## Meeting Information
+TBD
 ## Project Link
+[Git Repository](https://github.com/BeanDevStudios/Fall_2023_EnterpriseAppDev_Group_4.git)
+
 
