@@ -3,6 +3,15 @@
 ## Storyboard
 ## Functional Requirements
 ## Class Diagram
+ ![Image of Class Diagram](Pictures/Class%20Diagram%20v0.1.png)
+ - Main: Runs the application
+ - GUI: Controlls the User Interface
+ - Data Collection: Compares User and Star Data
+   - User Data: Data about the user
+   - Star Data: Data about the stars
+ - Location: Collects basic location information
+ - Constellation: Collects data about constellations
+ - Star: Collects data about stars
 ## JSON Schema
 ## Scrum Roles
 ### Kelli Porter
