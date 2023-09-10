@@ -15,6 +15,25 @@ Users will be able to select the Hemisphere and Time Zone from two dropdown menu
  - Constellation: Collects data about constellations
  - Star: Collects data about stars
 ## JSON Schema
+This is the information we will be exporting:
+```
+{
+    "Type" : "Object",
+    "Properties": 
+    {
+        "Name": {"Type" : "string"},
+        "age": {"Type": "integer"},
+        "hemisphere": {"Type":"string"},
+        "timeZone" : {"Type":"integer"},
+        "location": 
+            {
+                "X": {"Type":"integer"},
+                "Y": {"Type":"integer"},
+                "Z": {"Type":"integer"}
+            }
+    }
+}
+```
 ## Scrum Roles
 ### Kelli Porter
   - Roles: Scrum Master / DevOps / Project Owner

@@ -1,0 +1,16 @@
+{
+    "Type" : "Object",
+    "Properties": 
+    {
+        "Name": {"Type" : "string"},
+        "age": {"Type": "integer"},
+        "hemisphere": {"Type":"string"},
+        "timeZone" : {"Type":"integer"},
+        "location": 
+            {
+                "X": {"Type":"integer"},
+                "Y": {"Type":"integer"},
+                "Z": {"Type":"integer"}
+            }
+    }
+}
