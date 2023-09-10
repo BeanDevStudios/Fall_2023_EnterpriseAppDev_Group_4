@@ -1,9 +1,28 @@
 # Design Document
 ## Introduction
+### Have you ever looked up at night and wondered what stars and planets are visible? Our app allows users to plug in their current location to view detailed information about the sky above them. Users can also plugin the coordinates for other locations as well as save locations they have previously viewed.
 ## Storyboard
  ![Image of Story Board](Pictures/Story%20Board%20v0.1.png)
 Users will be able to select the Hemisphere and Time Zone from two dropdown menus. The user will be presented with infomration of all the constellations they can see at that location at the current time. Clicking on a star within that constellation will display more information on that star to the left of the contellation list.
 ## Functional Requirements
+1.  As a User, I want to plug in my current location, so that I can view detailed information about the sky above me.  
+<br>  **Given**: The user's current coordinates.  
+**When**: The user opens the app.  
+**Then**: The app will display the night sky for that user's current location.  
+<br>  
+
+2.  As a User, I want to plug in coordinates, so that I can view detailed information about the sky above that location.  
+<br>  **Given**: A feed of night sky data is available.  
+**When**: The user plugs in "48.8566° N, 2.3522° E".  
+**Then**: The app will display information about the night sky above Paris, France.  
+<br>
+
+3.  As a User, I want to view my saved locations, So that I can quickly obtain information about the sky above that location.  
+<br>  **Given**: A feed of the user's saved locations.  
+**When**: The user views their saved locations.  
+**Then**: The app will display a list of all of the user's saved locations.  
+ <br>  
+
 ## Class Diagram
  ![Image of Class Diagram](Pictures/Class%20Diagram%20v0.1.png)
  - Main: Runs the application
@@ -54,9 +73,9 @@ Users will be able to select the Hemisphere and Time Zone from two dropdown menu
 | Nov 13 | Display Constellation Data to User | Pending |
 | Nov 20 | UI Changes (As Needed) | Pending |
 | Nov 27 | Unit Testing / Bug Fixes | Pending |
-## Meeting Information
-TBD
 ## Project Link
 [Git Repository](https://github.com/BeanDevStudios/Fall_2023_EnterpriseAppDev_Group_4.git)
+## Meeting Information
+[We will meet on Sunday evenings around 7pm.](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjkzMDhiNDktNzg3MC00NmEzLTgxZDktNDg4ZDhlOTUzZjVj%40thread.v2/0?context=%7b%22Tid%22%3a%22f5222e6c-5fc6-48eb-8f03-73db18203b63%22%2c%22Oid%22%3a%226c29b11a-c188-43a7-8b61-0224f4f4732c%22%7d)
 
 
