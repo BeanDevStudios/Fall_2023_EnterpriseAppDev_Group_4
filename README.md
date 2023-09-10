@@ -5,6 +5,22 @@
 ## Class Diagram
 ## JSON Schema
 ## Scrum Roles
+### Kelli Porter
+  - Roles: Scrum Master / DevOps / Project Owner
+  - Email: portekn@mail.uc.edu
+
+### Jackson Pinchot
+  - Roles: Integration Developer
+  - Email: pinchojd@mail.uc.edu
+
+### Ben Devine
+  - Roles: Integration Developer
+  - Email: devinebj@mail.uc.edu
+
+### Reesë Tuttle
+  - Roles: Frontend Developer
+  - Email: reese.tuttle23@ihsd.us
+
 ## Scrum Board
 ### Sprint 1
 | Week of | Task | Completion |
