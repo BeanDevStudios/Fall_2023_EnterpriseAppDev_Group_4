@@ -68,7 +68,7 @@ This is the information we will be exporting:
 
 ### Reesë Tuttle
   - Roles: Frontend Developer
-  - Email: reese.tuttle23@ihsd.us
+  - Email: tuttlere@mail.uc.edu
 
 ## Scrum Board
 ### Sprint 1
