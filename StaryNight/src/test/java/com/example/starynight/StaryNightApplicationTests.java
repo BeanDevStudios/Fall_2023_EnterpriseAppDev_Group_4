@@ -3,32 +3,49 @@ package com.example.starynight;
 import dto.SaveData;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import service.ISavesService;
+
+import java.util.Calendar;
+import java.util.Date;
 
 @SpringBootTest
 class StaryNightApplicationTests {
 
 	//Variables
+	private ISavesService saveService;
 	private SaveData saveData = new SaveData();
 
 	@Test
 	void contextLoads() {
 	}
 
-	//Test #1
-	//When the user opens the application, the app will display information on the users current location
-		//Step 1 - Get users location
-		//Step 2 - Use users location to find information
-			// Use API to gather star information
-			// Organize star information
-			// List stars at this location
+	/*
+	* Test #1
+	* When the user opens the application, the app will display information on the users current location
+	* 	Step 1 - Get users location
+	* 	Step 2 - Use users location to find information
+    * 		Use API to gather star information
+	* 		Organize star information
+	* 		List stars at this location
+	*/
 	@Test
 	void displayInformationForUsersCurrentLocation() throws Exception {
-		getTheUsersLocation();
+		getTheUsersInformation();
 		useAPIToGetInformationWithTheUsersLocation();
 		displayTheInformationFoundWithTheUsersLocationToTheUser();
 	}
 
-	private void getTheUsersLocation(){
+	private void getTheUsersInformation(){
+		SaveData entry = new SaveData();
+		Date fromDate = new Date(2023, Calendar.NOVEMBER,1);
+		Date toDate = new Date(2023, Calendar.NOVEMBER,2);
+
+		entry.setLatitude((float) -84.39733);
+		entry.setLongitude((float) 33.775867);
+		entry.setElevation(50);
+		entry.setFromDate(fromDate);
+		entry.setToDate(toDate);
+		entry.setTime("08:00:00");
 
 	}
 
