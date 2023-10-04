@@ -1,6 +1,6 @@
 package com.example.starynight;
 
-import dto.Location;
+import dto.SaveData;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -8,7 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class StaryNightApplicationTests {
 
 	//Variables
-	private Location location = new Location();
+	private SaveData saveData = new SaveData();
 
 	@Test
 	void contextLoads() {
@@ -71,8 +71,42 @@ class StaryNightApplicationTests {
 
 	//Test #3
 	//When the user wants to save a search, the app will add the entry to an arraylist
+		//Step 1 - Collect the needed information for the save entry
+		//Step 2 - Save information into an array list
+		//Step 3 - Send saved information to an external storage place connected to the users account
+	@Test
+	void saveInformationForAUser() throws Exception{
+		addAllInformationThatWasPresentedToTheUserToAnArrayList();
+		sendInformationInTheArrayListToExternalServer();
+	}
+
+	private void addAllInformationThatWasPresentedToTheUserToAnArrayList(){
+
+	}
+
+	private void sendInformationInTheArrayListToExternalServer(){
+
+	}
 
 	//Test #4
 	//When a user wants to look at past locations, they will be able to view a saved location list.
+		//Step 1 - Present the user with the list of saved locations
+		//Step 2 - When the user selects a saved location, present that information to the user
+	@Test
+	void whenAUserSelectsAnItemFromTheirSavedSearchesPresentTheSearchToTheUser(){
+		getSavedSearchesFromEsternalServer();
+		presentSavedSerchesToUser();
+		PresentTheSearchInformationToTheUserWhenItemIsSelected();
+	}
+
+	private void getSavedSearchesFromEsternalServer(){
+
+	}
+
+	private void presentSavedSerchesToUser(){
+
+	}
+
+	private void PresentTheSearchInformationToTheUserWhenItemIsSelected(){}
 
 }
