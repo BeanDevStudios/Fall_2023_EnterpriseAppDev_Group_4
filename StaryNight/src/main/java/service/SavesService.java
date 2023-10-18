@@ -8,7 +8,7 @@ import java.util.List;
 @Service
 public class SavesService implements ISavesService {
 
-    ArrayList<SaveData> allSaveData = new ArrayList<>();
+    List<SaveData> allSaveData = new ArrayList<>();
     @Override
     public void save(SaveData saveData) {
         allSaveData.add(saveData);
