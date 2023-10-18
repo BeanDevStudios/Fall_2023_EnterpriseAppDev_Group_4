@@ -20,7 +20,7 @@ class SaveData {
     private Float latitude;
     private Float longitude;
     private Integer elevation;
-    private Date fromDate;
-    private Date toDate;
-    private String time;
+    private LocalDate fromDate;
+    private LocalDate toDate;
+    private LocalTime time;
 }
