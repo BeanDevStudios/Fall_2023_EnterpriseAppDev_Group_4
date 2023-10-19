@@ -2,6 +2,7 @@ package com.starynight;
 
 import com.starynight.dto.SaveData;
 import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import com.starynight.service.ISavesService;
 
@@ -12,6 +13,7 @@ import java.util.Date;
 class StaryNightApplicationTests {
 
 	//Variables
+	@Autowired
 	private ISavesService saveService;
 	private SaveData saveData = new SaveData();
 

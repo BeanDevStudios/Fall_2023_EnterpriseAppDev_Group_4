@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6d14c82-eb34-441c-a547-d878d28f31df" name="Changes" comment="">
+    <list default="true" id="c6d14c82-eb34-441c-a547-d878d28f31df" name="Changes" comment="Moved files between packages to clean up project structure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/java/com/example/starynight/StaryNightApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaryNight/src/main/java/com.starynight/StaryNightApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/java/com/example/starynight/StaryNightController.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaryNight/src/main/java/com.starynight/StaryNightController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/java/dto/SaveData.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaryNight/src/main/java/com.starynight/dto/SaveData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/java/service/ISavesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaryNight/src/main/java/com.starynight/service/ISavesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/java/service/SavesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaryNight/src/main/java/com.starynight/service/SavesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StaryNight/src/test/java/com/example/starynight/StaryNightApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaryNight/src/test/java/com.starynight/StaryNightApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/java/com.starynight/service/ISavesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaryNight/src/main/java/com.starynight/service/ISavesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/java/com.starynight/service/SavesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaryNight/src/main/java/com.starynight/service/SavesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StaryNight/src/test/java/com.starynight/StaryNightApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaryNight/src/test/java/com.starynight/StaryNightApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,8 +115,17 @@
       <workItem from="1696427778958" duration="391000" />
       <workItem from="1697749265778" duration="128000" />
       <workItem from="1697752465868" duration="1542000" />
-      <workItem from="1697754128403" duration="842000" />
+      <workItem from="1697754128403" duration="2605000" />
     </task>
+    <task id="LOCAL-00001" summary="Moved files between packages to clean up project structure">
+      <option name="closed" value="true" />
+      <created>1697755137160</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697755137160</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,5 +153,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Moved files between packages to clean up project structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved files between packages to clean up project structure" />
   </component>
 </project>
