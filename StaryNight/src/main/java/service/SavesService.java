@@ -8,14 +8,14 @@ import java.util.List;
 @Service
 public class SavesService implements ISavesService {
 
-    ArrayList<SaveData> allSaveData = new ArrayList<>();
+    ArrayList<SaveDataInput> allSaveData = new ArrayList<>();
     @Override
-    public void save(SaveData saveData) {
+    public void save(SaveDataInput saveData) {
         allSaveData.add(saveData);
     }
 
     @Override
-    public List<SaveData> fetchAll() {
+    public List<SaveDataInput> fetchAll() {
         return allSaveData;
     }
 }

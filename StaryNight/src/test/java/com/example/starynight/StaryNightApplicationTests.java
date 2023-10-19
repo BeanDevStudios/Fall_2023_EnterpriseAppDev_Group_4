@@ -3,15 +3,18 @@ package com.example.starynight;
 import dto.SaveData;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.beans.factory.annotation.Autowired;
 import service.ISavesService;
 
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 
 @SpringBootTest
 class StaryNightApplicationTests {
 
 	//Variables
+	@Autowired
 	private ISavesService saveService;
 	private SaveData saveData = new SaveData();
 
@@ -36,16 +39,66 @@ class StaryNightApplicationTests {
 	}
 
 	private void getTheUsersInformation(){
-		SaveData entry = new SaveData();
+		SaveDataInput entry = new SaveDataInput();
 		Date fromDate = new Date(2023, Calendar.NOVEMBER,1);
 		Date toDate = new Date(2023, Calendar.NOVEMBER,2);
+		float latitude = -84.39733;
+		float longitude = 33.775867;
+		int elevation = 50;
+		string time = "08:00:00";
 
-		entry.setLatitude((float) -84.39733);
-		entry.setLongitude((float) 33.775867);
-		entry.setElevation(50);
+		//Set object properties
+		entry.setLatitude((float) latitude);
+		entry.setLongitude((float) longitude);
+		entry.setElevation(elevation);
 		entry.setFromDate(fromDate);
 		entry.setToDate(toDate);
-		entry.setTime("08:00:00");
+		entry.setTime(time);
+
+		//Make sure object can properly get and set Values
+		assertEquals(latitude, entry.getLatitude());
+		assertEquals(longitude, entry.getLongitude());
+		assertEquals(elevation, entry.getElevation());
+		assertEquals(fromDate, entry.getFromDate());
+		assertEquals(toDate, entry.getToDate());
+		assertEquals(time, entry.getTime());
+
+	}
+	
+	/**
+	 * Validate that the SavesService can save and return a list of SaveDataInput.
+	 */
+	@Test
+	void verifyAddAndRemoveSaveDataInputs() {
+		SaveDataInput entry = new SaveDataInput();
+		Date fromDate = new Date(2023, Calendar.NOVEMBER,1);
+		Date toDate = new Date(2023, Calendar.NOVEMBER,2);
+		float latitude = -84.39733;
+		float longitude = 33.775867;
+		int elevation = 50;
+		string time = "08:00:00";
+
+		//Set object properties
+		entry.setLatitude((float) latitude);
+		entry.setLongitude((float) longitude);
+		entry.setElevation(elevation);
+		entry.setFromDate(fromDate);
+		entry.setToDate(toDate);
+		entry.setTime(time);
+
+		saveService.save(entry);
+
+		List<SaveDataInput> saveDataInputs = saveService.fetchAll();
+		boolean saveDataPresent = false;
+		for (SaveDataInput sdi : saveDataInputs) {
+			if (sdi.getFromDate().equals(fromDate) && sdi.getElevation().equals(elevation)) {
+				saveDataPresent = true;
+				break;
+			}
+		}
+
+		assertTrue(saveDataPresent);
+
 
 	}
 
