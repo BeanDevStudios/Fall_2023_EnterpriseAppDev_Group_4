@@ -6,8 +6,8 @@ public interface ISavesService {
 
     /*
     * Save a new set of data
+    * @param the data to be saved
     */
-
     default void save(SaveData saveData) {
 
     }
@@ -16,6 +16,5 @@ public interface ISavesService {
      * Return all save data
      * @return a collection of all saves
      */
-
     List<SaveData> fetchAll();
 }
