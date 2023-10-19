@@ -1,4 +1,4 @@
-package com.example.starynight;
+package com.starynight;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

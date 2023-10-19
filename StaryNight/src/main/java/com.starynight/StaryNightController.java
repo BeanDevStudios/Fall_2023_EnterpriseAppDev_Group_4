@@ -1,4 +1,4 @@
-package com.example.starynight;
+package com.starynight;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

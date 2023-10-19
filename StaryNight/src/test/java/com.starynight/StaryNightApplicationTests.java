@@ -1,9 +1,9 @@
-package com.example.starynight;
+package com.starynight;
 
-import dto.SaveData;
+import com.starynight.dto.SaveData;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import service.ISavesService;
+import com.starynight.service.ISavesService;
 
 import java.util.Calendar;
 import java.util.Date;

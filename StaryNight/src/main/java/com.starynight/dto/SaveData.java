@@ -1,4 +1,4 @@
-package dto;
+package com.starynight.dto;
 
 
 import lombok.Data;
