@@ -1,6 +1,6 @@
-package service;
+package com.example.starynight.service;
 
-import dto.SaveData;
+import com.example.starynight.dto.SaveData;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
