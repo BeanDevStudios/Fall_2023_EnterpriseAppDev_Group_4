@@ -6,7 +6,7 @@ public interface ISavesService {
 
     /*
     * Save a new set of data
-    * @param the data to be saved
+    * @param saveData the data to be saved
     */
     default void save(SaveData saveData) {
 
