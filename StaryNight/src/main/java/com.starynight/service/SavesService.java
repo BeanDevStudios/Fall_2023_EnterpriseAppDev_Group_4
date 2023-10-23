@@ -1,23 +1,22 @@
 package com.starynight.service;
 
 import com.starynight.dto.SaveData;
-import com.starynight.dao.ISavesDAO;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
 public class SavesService implements ISavesService {
     @Autowired
-    private ISavesDAO savesDAO;
+    private com.starynight.service.SavesService savesDAO;
 
     public SavesService(){
 
     }
 
-    public SavesService(ISavesDAO savesDAO){
-        this.savesDAO = savesDAO;
+    public SavesService(com.starynight.service.ISavesDAO savesDAO){
+        this.savesDAO = (SavesService) savesDAO;
     }
 
     @Override
