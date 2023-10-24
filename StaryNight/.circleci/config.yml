@@ -1,4 +1,12 @@
 version: 2 # use CircleCI 2.0
+
+orbs:
+  # The maven orb contains a set of prepackaged circleci configuration you can use repeatedly in your configurations files
+  # Orb commands and jobs help you with common scripting around a language/tool,
+  # so you don't have to copy and paste it everywhere.
+  # See the orb documentation here: https://circleci.com/developer/orbs/orb/circleci/maven
+  maven: circleci/maven@1.3
+
 jobs: # a collection of steps
   build: # runs not using Workflows must have a `build` job as entry point
 
