@@ -18,4 +18,6 @@ public interface ISavesService {
      */
 
     List<SaveData> fetchAll();
+
+    SaveData fetchById(int i);
 }

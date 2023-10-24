@@ -18,4 +18,9 @@ public class SavesService implements ISavesService {
     public List<SaveData> fetchAll() {
         return allSaveData;
     }
+
+    @Override
+    public SaveData fetchById(int i) {
+        return null;
+    }
 }

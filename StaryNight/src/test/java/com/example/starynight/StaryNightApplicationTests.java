@@ -1,8 +1,10 @@
 package com.example.starynight;
 
+import dao.ISaveDataDAO;
 import dto.SaveData;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
 import service.ISavesService;
 
 import java.util.Calendar;
@@ -11,12 +13,14 @@ import java.util.Date;
 @SpringBootTest
 class StaryNightApplicationTests {
 
-	//Variables
 	private ISavesService saveService;
 	private SaveData saveData = new SaveData();
 
+	@MockBean
+	private ISaveDataDAO saveDataDAO;
+
 	@Test
-	void contextLoads() {
+	public void contextLoads() {
 	}
 
 	/*
@@ -29,9 +33,8 @@ class StaryNightApplicationTests {
 	* 		List stars at this location
 	*/
 	@Test
-	void displayInformationForUsersCurrentLocation() throws Exception {
+	void displayInformationForUsers() throws Exception {
 		getTheUsersInformation();
-		useAPIToGetInformationWithTheUsersLocation();
 		displayTheInformationFoundWithTheUsersLocationToTheUser();
 	}
 
@@ -40,6 +43,7 @@ class StaryNightApplicationTests {
 		Date fromDate = new Date(2023, Calendar.NOVEMBER,1);
 		Date toDate = new Date(2023, Calendar.NOVEMBER,2);
 
+		entry.setSaveID(4);
 		entry.setLatitude((float) -84.39733);
 		entry.setLongitude((float) 33.775867);
 		entry.setElevation(50);
@@ -49,12 +53,8 @@ class StaryNightApplicationTests {
 
 	}
 
-	private void useAPIToGetInformationWithTheUsersLocation(){
-
-	}
-
 	private void displayTheInformationFoundWithTheUsersLocationToTheUser(){
-
+		saveData = saveService.fetchById(4);
 	}
 
 	//Test #2
@@ -110,7 +110,7 @@ class StaryNightApplicationTests {
 		//Step 1 - Present the user with the list of saved locations
 		//Step 2 - When the user selects a saved location, present that information to the user
 	@Test
-	void whenAUserSelectsAnItemFromTheirSavedSearchesPresentTheSearchToTheUser(){
+	public void whenAUserSelectsAnItemFromTheirSavedSearchesPresentTheSearchToTheUser(){
 		getSavedSearchesFromEsternalServer();
 		presentSavedSerchesToUser();
 		PresentTheSearchInformationToTheUserWhenItemIsSelected();

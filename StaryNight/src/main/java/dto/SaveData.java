@@ -17,6 +17,7 @@ class SaveData {
     * When a user wants to pull up information from their saved list,
     * the application will take the search criteria and search for it again
     */
+    private int SaveID;
     private Float latitude;
     private Float longitude;
     private Integer elevation;
