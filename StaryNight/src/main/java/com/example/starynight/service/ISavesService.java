@@ -1,6 +1,6 @@
-package service;
+package com.example.starynight.service;
 
-import dto.SaveData;
+import com.example.starynight.dto.SaveData;
 import java.util.List;
 public interface ISavesService {
 
