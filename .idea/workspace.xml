@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6d14c82-eb34-441c-a547-d878d28f31df" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/JSON Schema v0.1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/Class Diagram v0.1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/Image of Teams Chat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pictures/Story Board v0.1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Starry Night/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Starry Night/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Starry Night/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Starry Night/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Starry Night/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Starry Night/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Starry Night/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Starry Night/src/main/java/dao/starDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Starry Night/src/main/java/dto/starDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Starry Night/src/main/java/service/EnterpriseApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Starry Night/src/test/EnterpriseApplicationTests.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/java/com/example/starynight/StaryNightApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaryNight/src/main/java/com/example/starynight/StaryNightApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/results.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/results.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +17,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -37,26 +31,27 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2W58OBLfH4RcwDiAOPFG7yS0TD4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kelli.porter/OneDrive - Danis/Documents/School/Assignments/individual-assignment-1-my-class-journal-BeanDevStudios&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/kelli.porter/OneDrive - Danis/Documents/School/Assignments/individual-assignment-1-my-class-journal-BeanDevStudios",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
