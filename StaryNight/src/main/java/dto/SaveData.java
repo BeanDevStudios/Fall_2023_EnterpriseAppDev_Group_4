@@ -6,7 +6,9 @@ import lombok.Data;
 import java.util.Date;
 
 public @Data
-class SaveData {
+//Renaming this class because the current name can be interpreted as an action.
+    //I added input to the end to describe how the class is used...as input parameters to the API.
+class SaveDataInput {
 
     /*
     * These are the needed parameters to pull our data
