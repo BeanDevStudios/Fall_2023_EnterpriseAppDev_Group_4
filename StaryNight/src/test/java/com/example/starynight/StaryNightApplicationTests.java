@@ -10,11 +10,6 @@ import java.util.Date;
 
 @SpringBootTest
 class StaryNightApplicationTests {
-
-	//Variables
-	private ISavesService saveService;
-	private SaveData saveData = new SaveData();
-
 	@Test
 	void contextLoads() {
 	}
