@@ -18,15 +18,19 @@ class StaryNightApplicationTests {
 		assertThat(context).isNotNull();
 	}
 
-	/*
-	* Test #1
-	* When the user opens the application, the app will display information on the users current location
-	* 	Step 1 - Get users location
-	* 	Step 2 - Use users location to find information
-    * 		Use API to gather star information
-	* 		Organize star information
-	* 		List stars at this location
-	*/
+	/**
+	 * Tests the functionality where the application displays information
+	 * based on the user's current location.
+	 * <p>
+	 * Steps:
+	 * 1. Get the user's location.
+	 * 2. Use the user's location to find information:
+	 *    - Use API to gather star information.
+	 *    - Organize star information.
+	 *    - List stars at this location.
+	 * </p>
+	 * @throws Exception if any error occurs during the test
+	 */
 	@Test
 	void displayInformationForUsersCurrentLocation() throws Exception {
 		getTheUsersInformation();
@@ -57,13 +61,19 @@ class StaryNightApplicationTests {
 
 	}
 
-	//Test #2
-	//When the user enters coordinates, the app will display information in relation to those coordinates
-		//Step 1 - Get coordinates
-		//Step 2 - Use coordinates to find information
-			// Use API to gather star information
-			// Organize star information
-			// List stars at this location
+	/**
+	 * Tests the functionality where the application displays information
+	 * based on coordinates entered by the user.
+	 * <p>
+	 * Steps:
+	 * 1. Get coordinates.
+	 * 2. Use coordinates to find information:
+	 *    - Use API to gather star information.
+	 *    - Organize star information.
+	 *    - List stars at this location.
+	 * </p>
+	 * @throws Exception if any error occurs during the test
+	 */
 	@Test
 	void displayInformationForUsersChosenLocation() throws Exception{
 		getTheUsersChosenLocation();
@@ -86,11 +96,17 @@ class StaryNightApplicationTests {
 
 
 
-	//Test #3
-	//When the user wants to save a search, the app will add the entry to an arraylist
-		//Step 1 - Collect the needed information for the save entry
-		//Step 2 - Save information into an array list
-		//Step 3 - Send saved information to an external storage place connected to the users account
+	/**
+	 * Tests the functionality for saving a search to an array list and
+	 * sending this information to an external server.
+	 * <p>
+	 * Steps:
+	 * 1. Collect the needed information for the save entry.
+	 * 2. Save information into an array list.
+	 * 3. Send saved information to an external storage place connected to the user's account.
+	 * </p>
+	 * @throws Exception if any error occurs during the test
+	 */
 	@Test
 	void saveInformationForAUser() throws Exception{
 		addAllInformationThatWasPresentedToTheUserToAnArrayList();
@@ -106,10 +122,15 @@ class StaryNightApplicationTests {
 
 	}
 
-	//Test #4
-	//When a user wants to look at past locations, they will be able to view a saved location list.
-		//Step 1 - Present the user with the list of saved locations
-		//Step 2 - When the user selects a saved location, present that information to the user
+	/**
+	 * Tests the functionality for viewing and selecting past locations from saved searches.
+	 * <p>
+	 * Steps:
+	 * 1. Present the user with the list of saved locations.
+	 * 2. When the user selects a saved location, present that information to the user.
+	 * </p>
+	 * @throws Exception if any error occurs during the test
+	 */
 	@Test
 	void whenAUserSelectsAnItemFromTheirSavedSearchesPresentTheSearchToTheUser(){
 		getSavedSearchesFromEsternalServer();
