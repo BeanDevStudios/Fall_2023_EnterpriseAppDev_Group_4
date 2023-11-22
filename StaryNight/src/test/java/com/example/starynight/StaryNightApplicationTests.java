@@ -10,8 +10,12 @@ import java.util.Date;
 
 @SpringBootTest
 class StaryNightApplicationTests {
+	@Autowired
+	private ApplicationContext context;
+
 	@Test
 	void contextLoads() {
+		assertThat(context).isNotNull();
 	}
 
 	/*
@@ -28,6 +32,7 @@ class StaryNightApplicationTests {
 		getTheUsersInformation();
 		useAPIToGetInformationWithTheUsersLocation();
 		displayTheInformationFoundWithTheUsersLocationToTheUser();
+		//TODO: Add assertions or validations
 	}
 
 	private void getTheUsersInformation(){
@@ -64,7 +69,7 @@ class StaryNightApplicationTests {
 		getTheUsersChosenLocation();
 		useAPIToGetInformationWithTheUsersChosenLocation();
 		displayTheInformationFoundWithTheUsersChosenLocationToTheUser();
-
+		//TODO: Add assertions or validations
 	}
 
 	private void getTheUsersChosenLocation(){
@@ -90,6 +95,7 @@ class StaryNightApplicationTests {
 	void saveInformationForAUser() throws Exception{
 		addAllInformationThatWasPresentedToTheUserToAnArrayList();
 		sendInformationInTheArrayListToExternalServer();
+		//TODO: Add assertions or validations
 	}
 
 	private void addAllInformationThatWasPresentedToTheUserToAnArrayList(){
@@ -109,6 +115,7 @@ class StaryNightApplicationTests {
 		getSavedSearchesFromEsternalServer();
 		presentSavedSerchesToUser();
 		PresentTheSearchInformationToTheUserWhenItemIsSelected();
+		//TODO: Add assertions or validations
 	}
 
 	private void getSavedSearchesFromEsternalServer(){
