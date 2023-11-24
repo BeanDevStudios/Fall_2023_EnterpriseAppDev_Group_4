@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6d14c82-eb34-441c-a547-d878d28f31df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="c6d14c82-eb34-441c-a547-d878d28f31df" name="Changes" comment="Removed exclude from maven plugins so Maven will compile in CircleCI">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/java/com/example/starynight/StaryNightApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaryNight/src/main/java/com/example/starynight/StaryNightApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/results.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,13 +17,34 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Colin-McQueen-Sprint-1-Code-Review" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Crystolline"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c44ce134-33ec-4511-b496-738eabb3d925" />
+        <option name="url" value="https://github.com/BeanDevStudios/Fall_2023_EnterpriseAppDev_Group_4.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -41,7 +60,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Colin-McQueen-Sprint-2-Code-Review",
     "last_opened_file_path": "C:/Users/kelli.porter/OneDrive - Danis/Documents/School/Assignments/individual-assignment-1-my-class-journal-BeanDevStudios",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -57,19 +76,15 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mcque\IdeaProjects\Fall_2023_EnterpriseAppDev_Group_4" />
       <recent name="C:\Users\kelli.porter\OneDrive - Danis\Documents\School\Assignments\Fall_2023_EnterpriseAppDev_Group_4\Starry Night\src\main\java\service" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Fall_2023_EnterpriseAppDev_Group_4" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Fall_2023_EnterpriseAppDev_Group_4" />
-      <option name="filePath" />
+    <configuration name="StaryNightApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="StaryNight" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.starynight.StaryNightApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,9 +106,23 @@
       <workItem from="1696427702157" duration="32000" />
       <workItem from="1696427778958" duration="391000" />
     </task>
+    <task id="LOCAL-00001" summary="Move files out of extra StaryNight folder to fix Maven build issue">
+      <option name="closed" value="true" />
+      <created>1700793252349</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700793252349</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Move files out of extra StaryNight folder to fix Maven build issue" />
+    <MESSAGE value="Removed exclude from maven plugins so Maven will compile in CircleCI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed exclude from maven plugins so Maven will compile in CircleCI" />
   </component>
 </project>
