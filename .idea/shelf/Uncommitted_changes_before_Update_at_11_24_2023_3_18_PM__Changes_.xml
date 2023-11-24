@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Update_at_11_24_2023_3_18_PM_[Changes]" date="1700857114507" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_24_2023_3_18_PM_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 11/24/2023 3:18 PM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="StaryNight/.mvn/wrapper/maven-wrapper.jar" />
+    <option name="AFTER_PATH" value=".mvn/wrapper/maven-wrapper.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_24_2023_3_18_PM_[Changes]/maven-wrapper.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="StaryNight/mvnw" />
+    <option name="AFTER_PATH" value="mvnw" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_24_2023_3_18_PM_[Changes]/mvnw" />
+  </binary>
+</changelist>

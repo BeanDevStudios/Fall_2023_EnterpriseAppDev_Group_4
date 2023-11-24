@@ -1,0 +1,750 @@
+Index: StaryNight/src/main/java/com/example/starynight/dao/ISaveData.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/StaryNight/src/main/java/com/example/starynight/dao/ISaveData.java b/src/main/java/com/example/starynight/dao/ISaveData.java
+rename from StaryNight/src/main/java/com/example/starynight/dao/ISaveData.java
+rename to src/main/java/com/example/starynight/dao/ISaveData.java
+--- a/StaryNight/src/main/java/com/example/starynight/dao/ISaveData.java	(revision 935c68b8c68668979a8245a716d11597bae9550d)
++++ b/src/main/java/com/example/starynight/dao/ISaveData.java	(date 1700857620169)
+@@ -5,6 +5,12 @@
+ import java.util.List;
+ 
+ public interface ISaveData {
++
++    /**
++    * Pulls data from SaveData DTO
++    * Throws data to SaveDataDAOStub
++    *
++    */
+     SaveData save(SaveData saveData);
+     List<SaveData> getAll();
+     SaveData get(int id);
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"c6d14c82-eb34-441c-a547-d878d28f31df\" name=\"Changes\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\",\r\n    \"assignee\": \"devinebj\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"f34ce6a7-9061-44d2-9b47-fad910f485cc\" />\r\n        <option name=\"url\" value=\"https://github.com/BeanDevStudios/Fall_2023_EnterpriseAppDev_Group_4.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2W58OBLfH4RcwDiAOPFG7yS0TD4\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"last_opened_file_path\": \"F:/Programs/Java/Fall_2023_EnterpriseAppDev_Group_4/StaryNight\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"project.scopes\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CreateClassDialog.RecentsKey\">\r\n      <recent name=\"\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\kelli.porter\\OneDrive - Danis\\Documents\\School\\Assignments\\Fall_2023_EnterpriseAppDev_Group_4\\Starry Night\\src\\main\\java\\service\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\r\n      <module name=\"Fall_2023_EnterpriseAppDev_Group_4\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\r\n      <module name=\"Fall_2023_EnterpriseAppDev_Group_4\" />\r\n      <option name=\"filePath\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"c6d14c82-eb34-441c-a547-d878d28f31df\" name=\"Changes\" comment=\"\" />\r\n      <created>1696011045319</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1696011045319</updated>\r\n      <workItem from=\"1696011046312\" duration=\"1076000\" />\r\n      <workItem from=\"1696426366945\" duration=\"69000\" />\r\n      <workItem from=\"1696426485209\" duration=\"18000\" />\r\n      <workItem from=\"1696426532772\" duration=\"824000\" />\r\n      <workItem from=\"1696427567279\" duration=\"119000\" />\r\n      <workItem from=\"1696427702157\" duration=\"32000\" />\r\n      <workItem from=\"1696427778958\" duration=\"391000\" />\r\n      <workItem from=\"1697749265778\" duration=\"128000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 935c68b8c68668979a8245a716d11597bae9550d)
++++ b/.idea/workspace.xml	(date 1700857620192)
+@@ -4,7 +4,26 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="c6d14c82-eb34-441c-a547-d878d28f31df" name="Changes" comment="" />
++    <list default="true" id="c6d14c82-eb34-441c-a547-d878d28f31df" name="Changes" comment="">
++      <change beforePath="$PROJECT_DIR$/StaryNight/.circleci/config.yml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/StaryNight/.gitignore" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/StaryNight/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/StaryNight/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/StaryNight/mvnw" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/StaryNight/mvnw.cmd" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/StaryNight/pom.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/java/com/example/starynight/StaryNightApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/starynight/StaryNightApplication.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/java/com/example/starynight/StaryNightController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/starynight/StaryNightController.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/java/com/example/starynight/dao/ISaveData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/starynight/dao/ISaveData.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/java/com/example/starynight/dao/SaveDataDAOStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/starynight/dao/SaveDataDAOStub.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/java/com/example/starynight/dto/SaveData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/starynight/dto/SaveData.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/java/com/example/starynight/service/ISavesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/starynight/service/ISavesService.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/java/com/example/starynight/service/SavesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/starynight/service/SavesService.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/resources/application.properties" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/resources/static/style.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/resources/templates/start.html" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/StaryNight/src/test/java/com/example/starynight/StaryNightApplicationTests.java" beforeDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -13,12 +32,12 @@
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+-  "lastFilter": {
+-    "state": "OPEN",
+-    "assignee": "devinebj"
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;devinebj&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="GithubPullRequestsUISettings">
+     <option name="selectedUrlAndAccountId">
+       <UrlAndAccount>
+@@ -39,27 +58,31 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "git-widget-placeholder": "main",
+-    "last_opened_file_path": "F:/Programs/Java/Fall_2023_EnterpriseAppDev_Group_4/StaryNight",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "settings.editor.selected.configurable": "project.scopes",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
++    &quot;last_opened_file_path&quot;: &quot;F:/Programs/Java/Fall_2023_EnterpriseAppDev_Group_4/StaryNight&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CreateClassDialog.RecentsKey">
+       <recent name="" />
+     </key>
+     <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\Users\lfast\OneDrive\Desktop\School\IT4045\StaryNightApplication" />
++      <recent name="C:\Users\lfast\OneDrive\Desktop\School\IT4045\StaryNightApplication\src\main\java\com\example\starynight" />
++      <recent name="C:\Users\lfast\OneDrive\Desktop\School\IT4045\StaryNightApplication\src\main\java\com\example\starynight\service" />
++      <recent name="C:\Users\lfast\OneDrive\Desktop\School\IT4045\StaryNightApplication\src\main\java\com\example\starynight\dto" />
+       <recent name="C:\Users\kelli.porter\OneDrive - Danis\Documents\School\Assignments\Fall_2023_EnterpriseAppDev_Group_4\Starry Night\src\main\java\service" />
+     </key>
+   </component>
+Index: StaryNight/src/main/java/com/example/starynight/dto/SaveData.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/StaryNight/src/main/java/com/example/starynight/dto/SaveData.java b/src/main/java/com/example/starynight/dto/SaveData.java
+rename from StaryNight/src/main/java/com/example/starynight/dto/SaveData.java
+rename to src/main/java/com/example/starynight/dto/SaveData.java
+--- a/StaryNight/src/main/java/com/example/starynight/dto/SaveData.java	(revision 935c68b8c68668979a8245a716d11597bae9550d)
++++ b/src/main/java/com/example/starynight/dto/SaveData.java	(date 1700857620162)
+@@ -8,12 +8,12 @@
+ public @Data
+ class SaveData {
+ 
+-    /*
++    /**
+     * These are the needed parameters to pull our data
+-    *
++    * <p>
+     * We will be saving the search criteria rather than the information
+     * retrieved from the API to save space
+-    *
++    * <p>
+     * When a user wants to pull up information from their saved list,
+     * the application will take the search criteria and search for it again
+     */
+Index: StaryNight/mvnw.cmd
+===================================================================
+diff --git a/StaryNight/mvnw.cmd b/StaryNight/mvnw.cmd
+deleted file mode 100644
+--- a/StaryNight/mvnw.cmd	(revision 935c68b8c68668979a8245a716d11597bae9550d)
++++ /dev/null	(revision 935c68b8c68668979a8245a716d11597bae9550d)
+@@ -1,205 +0,0 @@
+-@REM ----------------------------------------------------------------------------
+-@REM Licensed to the Apache Software Foundation (ASF) under one
+-@REM or more contributor license agreements.  See the NOTICE file
+-@REM distributed with this work for additional information
+-@REM regarding copyright ownership.  The ASF licenses this file
+-@REM to you under the Apache License, Version 2.0 (the
+-@REM "License"); you may not use this file except in compliance
+-@REM with the License.  You may obtain a copy of the License at
+-@REM
+-@REM    https://www.apache.org/licenses/LICENSE-2.0
+-@REM
+-@REM Unless required by applicable law or agreed to in writing,
+-@REM software distributed under the License is distributed on an
+-@REM "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+-@REM KIND, either express or implied.  See the License for the
+-@REM specific language governing permissions and limitations
+-@REM under the License.
+-@REM ----------------------------------------------------------------------------
+-
+-@REM ----------------------------------------------------------------------------
+-@REM Apache Maven Wrapper startup batch script, version 3.2.0
+-@REM
+-@REM Required ENV vars:
+-@REM JAVA_HOME - location of a JDK home dir
+-@REM
+-@REM Optional ENV vars
+-@REM MAVEN_BATCH_ECHO - set to 'on' to enable the echoing of the batch commands
+-@REM MAVEN_BATCH_PAUSE - set to 'on' to wait for a keystroke before ending
+-@REM MAVEN_OPTS - parameters passed to the Java VM when running Maven
+-@REM     e.g. to debug Maven itself, use
+-@REM set MAVEN_OPTS=-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000
+-@REM MAVEN_SKIP_RC - flag to disable loading of mavenrc files
+-@REM ----------------------------------------------------------------------------
+-
+-@REM Begin all REM lines with '@' in case MAVEN_BATCH_ECHO is 'on'
+-@echo off
+-@REM set title of command window
+-title %0
+-@REM enable echoing by setting MAVEN_BATCH_ECHO to 'on'
+-@if "%MAVEN_BATCH_ECHO%" == "on"  echo %MAVEN_BATCH_ECHO%
+-
+-@REM set %HOME% to equivalent of $HOME
+-if "%HOME%" == "" (set "HOME=%HOMEDRIVE%%HOMEPATH%")
+-
+-@REM Execute a user defined script before this one
+-if not "%MAVEN_SKIP_RC%" == "" goto skipRcPre
+-@REM check for pre script, once with legacy .bat ending and once with .cmd ending
+-if exist "%USERPROFILE%\mavenrc_pre.bat" call "%USERPROFILE%\mavenrc_pre.bat" %*
+-if exist "%USERPROFILE%\mavenrc_pre.cmd" call "%USERPROFILE%\mavenrc_pre.cmd" %*
+-:skipRcPre
+-
+-@setlocal
+-
+-set ERROR_CODE=0
+-
+-@REM To isolate internal variables from possible post scripts, we use another setlocal
+-@setlocal
+-
+-@REM ==== START VALIDATION ====
+-if not "%JAVA_HOME%" == "" goto OkJHome
+-
+-echo.
+-echo Error: JAVA_HOME not found in your environment. >&2
+-echo Please set the JAVA_HOME variable in your environment to match the >&2
+-echo location of your Java installation. >&2
+-echo.
+-goto error
+-
+-:OkJHome
+-if exist "%JAVA_HOME%\bin\java.exe" goto init
+-
+-echo.
+-echo Error: JAVA_HOME is set to an invalid directory. >&2
+-echo JAVA_HOME = "%JAVA_HOME%" >&2
+-echo Please set the JAVA_HOME variable in your environment to match the >&2
+-echo location of your Java installation. >&2
+-echo.
+-goto error
+-
+-@REM ==== END VALIDATION ====
+-
+-:init
+-
+-@REM Find the project base dir, i.e. the directory that contains the folder ".mvn".
+-@REM Fallback to current working directory if not found.
+-
+-set MAVEN_PROJECTBASEDIR=%MAVEN_BASEDIR%
+-IF NOT "%MAVEN_PROJECTBASEDIR%"=="" goto endDetectBaseDir
+-
+-set EXEC_DIR=%CD%
+-set WDIR=%EXEC_DIR%
+-:findBaseDir
+-IF EXIST "%WDIR%"\.mvn goto baseDirFound
+-cd ..
+-IF "%WDIR%"=="%CD%" goto baseDirNotFound
+-set WDIR=%CD%
+-goto findBaseDir
+-
+-:baseDirFound
+-set MAVEN_PROJECTBASEDIR=%WDIR%
+-cd "%EXEC_DIR%"
+-goto endDetectBaseDir
+-
+-:baseDirNotFound
+-set MAVEN_PROJECTBASEDIR=%EXEC_DIR%
+-cd "%EXEC_DIR%"
+-
+-:endDetectBaseDir
+-
+-IF NOT EXIST "%MAVEN_PROJECTBASEDIR%\.mvn\jvm.config" goto endReadAdditionalConfig
+-
+-@setlocal EnableExtensions EnableDelayedExpansion
+-for /F "usebackq delims=" %%a in ("%MAVEN_PROJECTBASEDIR%\.mvn\jvm.config") do set JVM_CONFIG_MAVEN_PROPS=!JVM_CONFIG_MAVEN_PROPS! %%a
+-@endlocal & set JVM_CONFIG_MAVEN_PROPS=%JVM_CONFIG_MAVEN_PROPS%
+-
+-:endReadAdditionalConfig
+-
+-SET MAVEN_JAVA_EXE="%JAVA_HOME%\bin\java.exe"
+-set WRAPPER_JAR="%MAVEN_PROJECTBASEDIR%\.mvn\wrapper\maven-wrapper.jar"
+-set WRAPPER_LAUNCHER=org.apache.maven.wrapper.MavenWrapperMain
+-
+-set WRAPPER_URL="https://repo.maven.apache.org/maven2/org/apache/maven/wrapper/maven-wrapper/3.2.0/maven-wrapper-3.2.0.jar"
+-
+-FOR /F "usebackq tokens=1,2 delims==" %%A IN ("%MAVEN_PROJECTBASEDIR%\.mvn\wrapper\maven-wrapper.properties") DO (
+-    IF "%%A"=="wrapperUrl" SET WRAPPER_URL=%%B
+-)
+-
+-@REM Extension to allow automatically downloading the maven-wrapper.jar from Maven-central
+-@REM This allows using the maven wrapper in projects that prohibit checking in binary data.
+-if exist %WRAPPER_JAR% (
+-    if "%MVNW_VERBOSE%" == "true" (
+-        echo Found %WRAPPER_JAR%
+-    )
+-) else (
+-    if not "%MVNW_REPOURL%" == "" (
+-        SET WRAPPER_URL="%MVNW_REPOURL%/org/apache/maven/wrapper/maven-wrapper/3.2.0/maven-wrapper-3.2.0.jar"
+-    )
+-    if "%MVNW_VERBOSE%" == "true" (
+-        echo Couldn't find %WRAPPER_JAR%, downloading it ...
+-        echo Downloading from: %WRAPPER_URL%
+-    )
+-
+-    powershell -Command "&{"^
+-		"$webclient = new-object System.Net.WebClient;"^
+-		"if (-not ([string]::IsNullOrEmpty('%MVNW_USERNAME%') -and [string]::IsNullOrEmpty('%MVNW_PASSWORD%'))) {"^
+-		"$webclient.Credentials = new-object System.Net.NetworkCredential('%MVNW_USERNAME%', '%MVNW_PASSWORD%');"^
+-		"}"^
+-		"[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; $webclient.DownloadFile('%WRAPPER_URL%', '%WRAPPER_JAR%')"^
+-		"}"
+-    if "%MVNW_VERBOSE%" == "true" (
+-        echo Finished downloading %WRAPPER_JAR%
+-    )
+-)
+-@REM End of extension
+-
+-@REM If specified, validate the SHA-256 sum of the Maven wrapper jar file
+-SET WRAPPER_SHA_256_SUM=""
+-FOR /F "usebackq tokens=1,2 delims==" %%A IN ("%MAVEN_PROJECTBASEDIR%\.mvn\wrapper\maven-wrapper.properties") DO (
+-    IF "%%A"=="wrapperSha256Sum" SET WRAPPER_SHA_256_SUM=%%B
+-)
+-IF NOT %WRAPPER_SHA_256_SUM%=="" (
+-    powershell -Command "&{"^
+-       "$hash = (Get-FileHash \"%WRAPPER_JAR%\" -Algorithm SHA256).Hash.ToLower();"^
+-       "If('%WRAPPER_SHA_256_SUM%' -ne $hash){"^
+-       "  Write-Output 'Error: Failed to validate Maven wrapper SHA-256, your Maven wrapper might be compromised.';"^
+-       "  Write-Output 'Investigate or delete %WRAPPER_JAR% to attempt a clean download.';"^
+-       "  Write-Output 'If you updated your Maven version, you need to update the specified wrapperSha256Sum property.';"^
+-       "  exit 1;"^
+-       "}"^
+-       "}"
+-    if ERRORLEVEL 1 goto error
+-)
+-
+-@REM Provide a "standardized" way to retrieve the CLI args that will
+-@REM work with both Windows and non-Windows executions.
+-set MAVEN_CMD_LINE_ARGS=%*
+-
+-%MAVEN_JAVA_EXE% ^
+-  %JVM_CONFIG_MAVEN_PROPS% ^
+-  %MAVEN_OPTS% ^
+-  %MAVEN_DEBUG_OPTS% ^
+-  -classpath %WRAPPER_JAR% ^
+-  "-Dmaven.multiModuleProjectDirectory=%MAVEN_PROJECTBASEDIR%" ^
+-  %WRAPPER_LAUNCHER% %MAVEN_CONFIG% %*
+-if ERRORLEVEL 1 goto error
+-goto end
+-
+-:error
+-set ERROR_CODE=1
+-
+-:end
+-@endlocal & set ERROR_CODE=%ERROR_CODE%
+-
+-if not "%MAVEN_SKIP_RC%"=="" goto skipRcPost
+-@REM check for post script, once with legacy .bat ending and once with .cmd ending
+-if exist "%USERPROFILE%\mavenrc_post.bat" call "%USERPROFILE%\mavenrc_post.bat"
+-if exist "%USERPROFILE%\mavenrc_post.cmd" call "%USERPROFILE%\mavenrc_post.cmd"
+-:skipRcPost
+-
+-@REM pause the script if MAVEN_BATCH_PAUSE is set to 'on'
+-if "%MAVEN_BATCH_PAUSE%"=="on" pause
+-
+-if "%MAVEN_TERMINATE_CMD%"=="on" exit %ERROR_CODE%
+-
+-cmd /C exit /B %ERROR_CODE%
+Index: StaryNight/.mvn/wrapper/maven-wrapper.properties
+===================================================================
+diff --git a/StaryNight/.mvn/wrapper/maven-wrapper.properties b/StaryNight/.mvn/wrapper/maven-wrapper.properties
+deleted file mode 100644
+--- a/StaryNight/.mvn/wrapper/maven-wrapper.properties	(revision 935c68b8c68668979a8245a716d11597bae9550d)
++++ /dev/null	(revision 935c68b8c68668979a8245a716d11597bae9550d)
+@@ -1,2 +0,0 @@
+-distributionUrl=https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.9.4/apache-maven-3.9.4-bin.zip
+-wrapperUrl=https://repo.maven.apache.org/maven2/org/apache/maven/wrapper/maven-wrapper/3.2.0/maven-wrapper-3.2.0.jar
+Index: StaryNight/src/test/java/com/example/starynight/StaryNightApplicationTests.java
+===================================================================
+diff --git a/StaryNight/src/test/java/com/example/starynight/StaryNightApplicationTests.java b/StaryNight/src/test/java/com/example/starynight/StaryNightApplicationTests.java
+deleted file mode 100644
+--- a/StaryNight/src/test/java/com/example/starynight/StaryNightApplicationTests.java	(revision 935c68b8c68668979a8245a716d11597bae9550d)
++++ /dev/null	(revision 935c68b8c68668979a8245a716d11597bae9550d)
+@@ -1,129 +0,0 @@
+-package com.example.starynight;
+-
+-import com.example.starynight.dto.SaveData;
+-import org.junit.Test;
+-import org.springframework.boot.test.context.SpringBootTest;
+-import com.example.starynight.service.ISavesService;
+-
+-import java.util.Calendar;
+-import java.util.Date;
+-
+-@SpringBootTest
+-class StaryNightApplicationTests {
+-
+-	//Variables
+-	private ISavesService saveService;
+-	private SaveData saveData = new SaveData();
+-
+-	@Test
+-	void contextLoads() {
+-	}
+-
+-	/*
+-	* Test #1
+-	* When the user opens the application, the app will display information on the users current location
+-	* 	Step 1 - Get users location
+-	* 	Step 2 - Use users location to find information
+-    * 		Use API to gather star information
+-	* 		Organize star information
+-	* 		List stars at this location
+-	*/
+-	@Test
+-	void displayInformationForUsersCurrentLocation() throws Exception {
+-		getTheUsersInformation();
+-		useAPIToGetInformationWithTheUsersLocation();
+-		displayTheInformationFoundWithTheUsersLocationToTheUser();
+-	}
+-
+-	private void getTheUsersInformation(){
+-		SaveData entry = new SaveData();
+-		Date fromDate = new Date(2023, Calendar.NOVEMBER,1);
+-		Date toDate = new Date(2023, Calendar.NOVEMBER,2);
+-
+-		entry.setLatitude((float) -84.39733);
+-		entry.setLongitude((float) 33.775867);
+-		entry.setElevation(50);
+-		entry.setFromDate(fromDate);
+-		entry.setToDate(toDate);
+-		entry.setTime("08:00:00");
+-
+-	}
+-
+-	private void useAPIToGetInformationWithTheUsersLocation(){
+-
+-	}
+-
+-	private void displayTheInformationFoundWithTheUsersLocationToTheUser(){
+-
+-	}
+-
+-	//Test #2
+-	//When the user enters coordinates, the app will display information in relation to those coordinates
+-		//Step 1 - Get coordinates
+-		//Step 2 - Use coordinates to find information
+-			// Use API to gather star information
+-			// Organize star information
+-			// List stars at this location
+-	@Test
+-	void displayInformationForUsersChosenLocation() throws Exception{
+-		getTheUsersChosenLocation();
+-		useAPIToGetInformationWithTheUsersChosenLocation();
+-		displayTheInformationFoundWithTheUsersChosenLocationToTheUser();
+-
+-	}
+-
+-	private void getTheUsersChosenLocation(){
+-
+-	}
+-
+-	private void useAPIToGetInformationWithTheUsersChosenLocation(){
+-
+-	}
+-
+-	private void displayTheInformationFoundWithTheUsersChosenLocationToTheUser(){
+-
+-	}
+-
+-
+-
+-	//Test #3
+-	//When the user wants to save a search, the app will add the entry to an arraylist
+-		//Step 1 - Collect the needed information for the save entry
+-		//Step 2 - Save information into an array list
+-		//Step 3 - Send saved information to an external storage place connected to the users account
+-	@Test
+-	void saveInformationForAUser() throws Exception{
+-		addAllInformationThatWasPresentedToTheUserToAnArrayList();
+-		sendInformationInTheArrayListToExternalServer();
+-	}
+-
+-	private void addAllInformationThatWasPresentedToTheUserToAnArrayList(){
+-
+-	}
+-
+-	private void sendInformationInTheArrayListToExternalServer(){
+-
+-	}
+-
+-	//Test #4
+-	//When a user wants to look at past locations, they will be able to view a saved location list.
+-		//Step 1 - Present the user with the list of saved locations
+-		//Step 2 - When the user selects a saved location, present that information to the user
+-	@Test
+-	void whenAUserSelectsAnItemFromTheirSavedSearchesPresentTheSearchToTheUser(){
+-		getSavedSearchesFromEsternalServer();
+-		presentSavedSerchesToUser();
+-		PresentTheSearchInformationToTheUserWhenItemIsSelected();
+-	}
+-
+-	private void getSavedSearchesFromEsternalServer(){
+-
+-	}
+-
+-	private void presentSavedSerchesToUser(){
+-
+-	}
+-
+-	private void PresentTheSearchInformationToTheUserWhenItemIsSelected(){}
+-
+-}
+Index: StaryNight/pom.xml
+===================================================================
+diff --git a/StaryNight/pom.xml b/StaryNight/pom.xml
+deleted file mode 100644
+--- a/StaryNight/pom.xml	(revision 935c68b8c68668979a8245a716d11597bae9550d)
++++ /dev/null	(revision 935c68b8c68668979a8245a716d11597bae9550d)
+@@ -1,79 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+-    <modelVersion>4.0.0</modelVersion>
+-    <parent>
+-        <groupId>org.springframework.boot</groupId>
+-        <artifactId>spring-boot-starter-parent</artifactId>
+-        <version>3.1.4</version>
+-        <relativePath/> <!-- lookup parent from repository -->
+-    </parent>
+-    <groupId>com.example</groupId>
+-    <artifactId>StaryNight</artifactId>
+-    <version>0.0.1-SNAPSHOT</version>
+-    <name>StaryNight</name>
+-    <description>StaryNight</description>
+-    <properties>
+-        <java.version>17</java.version>
+-    </properties>
+-    <dependencies>
+-        <dependency>
+-            <groupId>org.springframework.boot</groupId>
+-            <artifactId>spring-boot</artifactId>
+-        </dependency>
+-
+-        <dependency>
+-            <groupId>org.springframework.boot</groupId>
+-            <artifactId>spring-boot-devtools</artifactId>
+-            <scope>runtime</scope>
+-            <optional>true</optional>
+-        </dependency>
+-        <dependency>
+-            <groupId>org.projectlombok</groupId>
+-            <artifactId>lombok</artifactId>
+-            <optional>true</optional>
+-        </dependency>
+-        <dependency>
+-            <groupId>org.springframework.boot</groupId>
+-            <artifactId>spring-boot-starter-web</artifactId>
+-        </dependency>
+-        <dependency>
+-            <groupId>org.springframework.boot</groupId>
+-            <artifactId>spring-boot-starter</artifactId>
+-        </dependency>
+-        <dependency>
+-            <groupId>junit</groupId>
+-            <artifactId>junit</artifactId>
+-            <scope>test</scope>
+-        </dependency>
+-        <dependency>
+-            <groupId>org.junit.jupiter</groupId>
+-            <artifactId>junit-jupiter</artifactId>
+-            <scope>test</scope>
+-        </dependency>
+-        <dependency>
+-            <groupId>org.springframework.boot</groupId>
+-            <artifactId>spring-boot-test</artifactId>
+-            <version>3.1.4</version>
+-            <scope>test</scope>
+-        </dependency>
+-    </dependencies>
+-
+-    <build>
+-        <plugins>
+-            <plugin>
+-                <groupId>org.springframework.boot</groupId>
+-                <artifactId>spring-boot-maven-plugin</artifactId>
+-                <configuration>
+-                    <excludes>
+-                        <exclude>
+-                            <groupId>org.projectlombok</groupId>
+-                            <artifactId>lombok</artifactId>
+-                        </exclude>
+-                    </excludes>
+-                </configuration>
+-            </plugin>
+-        </plugins>
+-    </build>
+-
+-</project>
+Index: StaryNight/.circleci/config.yml
+===================================================================
+diff --git a/StaryNight/.circleci/config.yml b/StaryNight/.circleci/config.yml
+deleted file mode 100644
+--- a/StaryNight/.circleci/config.yml	(revision 935c68b8c68668979a8245a716d11597bae9550d)
++++ /dev/null	(revision 935c68b8c68668979a8245a716d11597bae9550d)
+@@ -1,34 +0,0 @@
+-version: 2 # use CircleCI 2.0
+-jobs: # a collection of steps
+-  build: # runs not using Workflows must have a `build` job as entry point
+-
+-    working_directory: ~/circleci-demo-java-spring # directory where steps will run
+-
+-    docker: # run the steps with Docker
+-      - image: circleci/openjdk:11-stretch # ...with this image as the primary container; this is where all `steps` will run
+-
+-    steps: # a collection of executable commands
+-
+-      - checkout # check out source code to working directory
+-
+-      - restore_cache: # restore the saved cache after the first run or if `pom.xml` has changed
+-          # Read about caching dependencies: https://circleci.com/docs/2.0/caching/
+-          key: circleci-demo-java-spring-{{ checksum "pom.xml" }}
+-
+-      - run: mvn dependency:go-offline # gets the project dependencies
+-
+-      - save_cache: # saves the project dependencies
+-          paths:
+-            - ~/.m2
+-          key: circleci-demo-java-spring-{{ checksum "pom.xml" }}
+-
+-      - run: mvn package # run the actual tests
+-
+-      - store_test_results: # uploads the test metadata from the `target/surefire-reports` directory so that it can show up in the CircleCI dashboard.
+-          # Upload test results for display in Test Summary: https://circleci.com/docs/2.0/collect-test-data/
+-          path: target/surefire-reports
+-
+-      - store_artifacts: # store the uberjar as an artifact
+-          # Upload test summary for display in Artifacts: https://circleci.com/docs/2.0/artifacts/
+-          path: target/demo-java-spring-0.0.1-SNAPSHOT.jar
+-      # See https://circleci.com/docs/2.0/deployment-integrations/ for deploy examples
+\ No newline at end of file
+Index: StaryNight/src/main/resources/templates/start.html
+===================================================================
+diff --git a/StaryNight/src/main/resources/templates/start.html b/StaryNight/src/main/resources/templates/start.html
+deleted file mode 100644
+--- a/StaryNight/src/main/resources/templates/start.html	(revision 935c68b8c68668979a8245a716d11597bae9550d)
++++ /dev/null	(revision 935c68b8c68668979a8245a716d11597bae9550d)
+@@ -1,18 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <link rel="stylesheet" href="/style.css">
+-    <meta charset="UTF-8">
+-    <title>My Class Journal</title>
+-</head>
+-<body>
+-<div class="wrapper">
+-    <h1>
+-        Welcome to Starry Nights!
+-    </h1>
+-    <h2>
+-        This is a placeholder for now
+-    </h2>
+-</div>
+-</body>
+-</html>
+\ No newline at end of file
+Index: StaryNight/.gitignore
+===================================================================
+diff --git a/StaryNight/.gitignore b/StaryNight/.gitignore
+deleted file mode 100644
+--- a/StaryNight/.gitignore	(revision 935c68b8c68668979a8245a716d11597bae9550d)
++++ /dev/null	(revision 935c68b8c68668979a8245a716d11597bae9550d)
+@@ -1,33 +0,0 @@
+-HELP.md
+-target/
+-!.mvn/wrapper/maven-wrapper.jar
+-!**/src/main/**/target/
+-!**/src/test/**/target/
+-
+-### STS ###
+-.apt_generated
+-.classpath
+-.factorypath
+-.project
+-.settings
+-.springBeans
+-.sts4-cache
+-
+-### IntelliJ IDEA ###
+-.idea
+-*.iws
+-*.iml
+-*.ipr
+-
+-### NetBeans ###
+-/nbproject/private/
+-/nbbuild/
+-/dist/
+-/nbdist/
+-/.nb-gradle/
+-build/
+-!**/src/main/**/build/
+-!**/src/test/**/build/
+-
+-### VS Code ###
+-.vscode/
+Index: StaryNight/src/main/resources/static/style.css
+===================================================================
+diff --git a/StaryNight/src/main/resources/static/style.css b/StaryNight/src/main/resources/static/style.css
+deleted file mode 100644
+--- a/StaryNight/src/main/resources/static/style.css	(revision 935c68b8c68668979a8245a716d11597bae9550d)
++++ /dev/null	(revision 935c68b8c68668979a8245a716d11597bae9550d)
+@@ -1,22 +0,0 @@
+-h1 {
+-    color: white;
+-    text-align: center;
+-    font-family: Arial;
+-}
+-
+-h2 {
+-    color: white;
+-    text-align: center;
+-    font-family: Arial;
+-}
+-
+-.wrapper{
+-    background-color: red;
+-    padding-left: 20px;
+-    padding-right: 20px;
+-    padding-top: 10px;
+-    padding-botton: 20px;
+-    margin-left: auto;
+-    margin-right: auto;
+-    max-width: 720px;
+-}
+\ No newline at end of file
+diff --git a/StaryNight/src/main/resources/application.properties b/StaryNight/src/main/resources/application.properties
+deleted file mode 100644
+diff --git a/StaryNight/src/main/java/com/example/starynight/dao/SaveDataDAOStub.java b/src/main/java/com/example/starynight/dao/SaveDataDAOStub.java
+rename from StaryNight/src/main/java/com/example/starynight/dao/SaveDataDAOStub.java
+rename to src/main/java/com/example/starynight/dao/SaveDataDAOStub.java
+diff --git a/StaryNight/src/main/java/com/example/starynight/service/SavesService.java b/src/main/java/com/example/starynight/service/SavesService.java
+rename from StaryNight/src/main/java/com/example/starynight/service/SavesService.java
+rename to src/main/java/com/example/starynight/service/SavesService.java
+diff --git a/StaryNight/src/main/java/com/example/starynight/service/ISavesService.java b/src/main/java/com/example/starynight/service/ISavesService.java
+rename from StaryNight/src/main/java/com/example/starynight/service/ISavesService.java
+rename to src/main/java/com/example/starynight/service/ISavesService.java
+diff --git a/StaryNight/src/main/java/com/example/starynight/StaryNightController.java b/src/main/java/com/example/starynight/StaryNightController.java
+rename from StaryNight/src/main/java/com/example/starynight/StaryNightController.java
+rename to src/main/java/com/example/starynight/StaryNightController.java
+diff --git a/StaryNight/src/main/java/com/example/starynight/StaryNightApplication.java b/src/main/java/com/example/starynight/StaryNightApplication.java
+rename from StaryNight/src/main/java/com/example/starynight/StaryNightApplication.java
+rename to src/main/java/com/example/starynight/StaryNightApplication.java

@@ -4,25 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6d14c82-eb34-441c-a547-d878d28f31df" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StaryNight/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StaryNight/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StaryNight/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StaryNight/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StaryNight/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StaryNight/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/java/com/example/starynight/StaryNightApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/starynight/StaryNightApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/java/com/example/starynight/StaryNightController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/starynight/StaryNightController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/java/com/example/starynight/dao/ISaveData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/starynight/dao/ISaveData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/java/com/example/starynight/dao/SaveDataDAOStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/starynight/dao/SaveDataDAOStub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/java/com/example/starynight/dto/SaveData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/starynight/dto/SaveData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/java/com/example/starynight/service/ISavesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/starynight/service/ISavesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/java/com/example/starynight/service/SavesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/starynight/service/SavesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/resources/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StaryNight/src/main/resources/templates/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/start.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StaryNight/src/test/java/com/example/starynight/StaryNightApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/starynight/StaryNightApplicationTests.java" afterDir="false" />
+    <list default="true" id="c6d14c82-eb34-441c-a547-d878d28f31df" name="Changes" comment="Fixed File formatting&#10;solution to compile issue is resolved with fixing the initial project issue of the directory not being set up right.&#10;All tests work. Need API to work with the tests needed to be added.&#10;Project was available in UC Github on time.&#10;The program is easy to understand as an outsider.&#10;Sprint two commits pushed as single push:&#10;https://github.com/Fastovich/IT4045NPSProject/commit/e9dff7ce5ad69384b2f64b926f249b07f927a0ee">
+      <change beforePath="$PROJECT_DIR$/StaryNight/.circleci/config.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,9 +122,22 @@
       <workItem from="1696427778958" duration="391000" />
       <workItem from="1697749265778" duration="128000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixed File formatting&#10;solution to compile issue is resolved with fixing the initial project issue of the directory not being set up right.&#10;All tests work. Need API to work with the tests needed to be added.&#10;Project was available in UC Github on time.&#10;The program is easy to understand as an outsider.&#10;Sprint two commits pushed as single push:&#10;https://github.com/Fastovich/IT4045NPSProject/commit/e9dff7ce5ad69384b2f64b926f249b07f927a0ee">
+      <option name="closed" value="true" />
+      <created>1700858391940</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700858391940</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed File formatting&#10;solution to compile issue is resolved with fixing the initial project issue of the directory not being set up right.&#10;All tests work. Need API to work with the tests needed to be added.&#10;Project was available in UC Github on time.&#10;The program is easy to understand as an outsider.&#10;Sprint two commits pushed as single push:&#10;https://github.com/Fastovich/IT4045NPSProject/commit/e9dff7ce5ad69384b2f64b926f249b07f927a0ee" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed File formatting&#10;solution to compile issue is resolved with fixing the initial project issue of the directory not being set up right.&#10;All tests work. Need API to work with the tests needed to be added.&#10;Project was available in UC Github on time.&#10;The program is easy to understand as an outsider.&#10;Sprint two commits pushed as single push:&#10;https://github.com/Fastovich/IT4045NPSProject/commit/e9dff7ce5ad69384b2f64b926f249b07f927a0ee" />
   </component>
 </project>
