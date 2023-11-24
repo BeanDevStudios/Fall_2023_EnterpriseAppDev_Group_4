@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6d14c82-eb34-441c-a547-d878d28f31df" name="Changes" comment="Removed exclude from maven plugins so Maven will compile in CircleCI">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/SaveData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/starynight/dto/SaveData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ISavesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/starynight/service/ISavesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/SavesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/starynight/service/SavesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/starynight/StaryNightApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/starynight/StaryNightApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +83,38 @@
       <recent name="C:\Users\kelli.porter\OneDrive - Danis\Documents\School\Assignments\Fall_2023_EnterpriseAppDev_Group_4\Starry Night\src\main\java\service" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.StaryNightApplicationTests.contextLoads">
+    <configuration name="StaryNightApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StaryNight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.starynight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.starynight" />
+      <option name="MAIN_CLASS_NAME" value="com.example.starynight.StaryNightApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaryNightApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StaryNight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.starynight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.starynight" />
+      <option name="MAIN_CLASS_NAME" value="com.example.starynight.StaryNightApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StaryNightApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="StaryNight" />
@@ -89,6 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StaryNightApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.StaryNightApplicationTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -114,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700793252349</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Removed exclude from maven plugins so Maven will compile in CircleCI">
+      <option name="closed" value="true" />
+      <created>1700793847596</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700793847596</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
