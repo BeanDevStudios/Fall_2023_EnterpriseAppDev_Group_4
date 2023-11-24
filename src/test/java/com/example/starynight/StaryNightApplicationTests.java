@@ -9,14 +9,14 @@ import java.util.Calendar;
 import java.util.Date;
 
 @SpringBootTest
-class StaryNightApplicationTests {
+public class StaryNightApplicationTests {
 
 	//Variables
 	private ISavesService saveService;
 	private SaveData saveData = new SaveData();
 
 	@Test
-	void contextLoads() {
+	public void contextLoads() {
 	}
 
 	/*
@@ -29,7 +29,7 @@ class StaryNightApplicationTests {
 	* 		List stars at this location
 	*/
 	@Test
-	void displayInformationForUsersCurrentLocation() throws Exception {
+	public void displayInformationForUsersCurrentLocation() throws Exception {
 		getTheUsersInformation();
 		useAPIToGetInformationWithTheUsersLocation();
 		displayTheInformationFoundWithTheUsersLocationToTheUser();
@@ -65,7 +65,7 @@ class StaryNightApplicationTests {
 			// Organize star information
 			// List stars at this location
 	@Test
-	void displayInformationForUsersChosenLocation() throws Exception{
+	public void displayInformationForUsersChosenLocation() throws Exception{
 		getTheUsersChosenLocation();
 		useAPIToGetInformationWithTheUsersChosenLocation();
 		displayTheInformationFoundWithTheUsersChosenLocationToTheUser();
@@ -92,7 +92,7 @@ class StaryNightApplicationTests {
 		//Step 2 - Save information into an array list
 		//Step 3 - Send saved information to an external storage place connected to the users account
 	@Test
-	void saveInformationForAUser() throws Exception{
+	public void saveInformationForAUser() throws Exception{
 		addAllInformationThatWasPresentedToTheUserToAnArrayList();
 		sendInformationInTheArrayListToExternalServer();
 	}
@@ -110,7 +110,7 @@ class StaryNightApplicationTests {
 		//Step 1 - Present the user with the list of saved locations
 		//Step 2 - When the user selects a saved location, present that information to the user
 	@Test
-	void whenAUserSelectsAnItemFromTheirSavedSearchesPresentTheSearchToTheUser(){
+	public void whenAUserSelectsAnItemFromTheirSavedSearchesPresentTheSearchToTheUser(){
 		getSavedSearchesFromEsternalServer();
 		presentSavedSerchesToUser();
 		PresentTheSearchInformationToTheUserWhenItemIsSelected();
