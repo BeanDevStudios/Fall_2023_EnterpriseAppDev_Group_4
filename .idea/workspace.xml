@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6d14c82-eb34-441c-a547-d878d28f31df" name="Changes" comment="">
+    <list default="true" id="cc11891e-85c1-4868-be49-57b5dbce2cd5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StaryNight/src/test/java/com/example/starynight/StaryNightApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaryNight/src/test/java/com/example/starynight/StaryNightApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,11 +15,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -37,11 +34,11 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
-  <component name="ProjectId" id="2W58OBLfH4RcwDiAOPFG7yS0TD4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2YY5XHqNvCYU4Yedpo4krvTuUla" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,35 +48,20 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/kelli.porter/OneDrive - Danis/Documents/School/Assignments/individual-assignment-1-my-class-journal-BeanDevStudios",
+    "git-widget-placeholder": "sweeneri-code__review__2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.scopes",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\kelli.porter\OneDrive - Danis\Documents\School\Assignments\Fall_2023_EnterpriseAppDev_Group_4\Starry Night\src\main\java\service" />
-    </key>
-  </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Fall_2023_EnterpriseAppDev_Group_4" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Fall_2023_EnterpriseAppDev_Group_4" />
-      <option name="filePath" />
+    <configuration name="StaryNightApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="StaryNight" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.starynight.StaryNightApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,19 +70,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c6d14c82-eb34-441c-a547-d878d28f31df" name="Changes" comment="" />
-      <created>1696011045319</created>
+      <changelist id="cc11891e-85c1-4868-be49-57b5dbce2cd5" name="Changes" comment="" />
+      <created>1700689712243</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1696011045319</updated>
-      <workItem from="1696011046312" duration="1076000" />
-      <workItem from="1696426366945" duration="69000" />
-      <workItem from="1696426485209" duration="18000" />
-      <workItem from="1696426532772" duration="824000" />
-      <workItem from="1696427567279" duration="119000" />
-      <workItem from="1696427702157" duration="32000" />
-      <workItem from="1696427778958" duration="391000" />
-      <workItem from="1700689098902" duration="384000" />
+      <updated>1700689712243</updated>
+      <workItem from="1700689715795" duration="1329000" />
     </task>
     <servers />
   </component>
