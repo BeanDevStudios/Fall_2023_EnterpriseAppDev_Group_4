@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6d14c82-eb34-441c-a547-d878d28f31df" name="Changes" comment="Fixed File formatting&#10;solution to compile issue is resolved with fixing the initial project issue of the directory not being set up right.&#10;All tests work. Need API to work with the tests needed to be added.&#10;Project was available in UC Github on time.&#10;The program is easy to understand as an outsider.&#10;Sprint two commits pushed as single push:&#10;https://github.com/Fastovich/IT4045NPSProject/commit/e9dff7ce5ad69384b2f64b926f249b07f927a0ee">
-      <change beforePath="$PROJECT_DIR$/StaryNight/.circleci/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +31,21 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="f34ce6a7-9061-44d2-9b47-fad910f485cc" />
+        <option name="accountId" value="7f5ceabe-6904-4fa9-8a53-8fb359652d81" />
         <option name="url" value="https://github.com/BeanDevStudios/Fall_2023_EnterpriseAppDev_Group_4.git" />
       </UrlAndAccount>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="usePluginRegistry" value="true" />
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -58,7 +68,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.scopes",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -121,6 +134,7 @@
       <workItem from="1696427702157" duration="32000" />
       <workItem from="1696427778958" duration="391000" />
       <workItem from="1697749265778" duration="128000" />
+      <workItem from="1700860503679" duration="1117000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed File formatting&#10;solution to compile issue is resolved with fixing the initial project issue of the directory not being set up right.&#10;All tests work. Need API to work with the tests needed to be added.&#10;Project was available in UC Github on time.&#10;The program is easy to understand as an outsider.&#10;Sprint two commits pushed as single push:&#10;https://github.com/Fastovich/IT4045NPSProject/commit/e9dff7ce5ad69384b2f64b926f249b07f927a0ee">
       <option name="closed" value="true" />
@@ -130,11 +144,30 @@
       <option name="project" value="LOCAL" />
       <updated>1700858391940</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed File formatting&#10;solution to compile issue is resolved with fixing the initial project issue of the directory not being set up right.&#10;All tests work. Need API to work with the tests needed to be added.&#10;Project was available in UC Github on time.&#10;The program is easy to understand as an outsider.&#10;Sprint two commits pushed as single push:&#10;https://github.com/Fastovich/IT4045NPSProject/commit/e9dff7ce5ad69384b2f64b926f249b07f927a0ee">
+      <option name="closed" value="true" />
+      <created>1700858757377</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700858757377</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed File formatting&#10;solution to compile issue is resolved with fixing the initial project issue of the directory not being set up right.&#10;All tests work. Need API to work with the tests needed to be added.&#10;Project was available in UC Github on time.&#10;The program is easy to understand as an outsider.&#10;Sprint two commits pushed as single push:&#10;https://github.com/Fastovich/IT4045NPSProject/commit/e9dff7ce5ad69384b2f64b926f249b07f927a0ee" />
