@@ -1,9 +1,10 @@
 package com.example.starynight;
 
-import dto.SaveData;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import service.ISavesService;
+
+import com.example.starynight.dto.SaveData;
+import com.example.starynight.service.ISavesService;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -37,14 +38,12 @@ class StaryNightApplicationTests {
 
 	private void getTheUsersInformation(){
 		SaveData entry = new SaveData();
-		Date fromDate = new Date(2023, Calendar.NOVEMBER,1);
-		Date toDate = new Date(2023, Calendar.NOVEMBER,2);
+		Date date = new Date(2023, Calendar.NOVEMBER,1);
 
 		entry.setLatitude((float) -84.39733);
 		entry.setLongitude((float) 33.775867);
 		entry.setElevation(50);
-		entry.setFromDate(fromDate);
-		entry.setToDate(toDate);
+		entry.setDate(date);
 		entry.setTime("08:00:00");
 
 	}

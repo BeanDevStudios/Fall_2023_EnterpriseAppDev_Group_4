@@ -1,5 +1,4 @@
-package dto;
-
+package com.example.starynight.dto;
 
 import lombok.Data;
 
@@ -17,10 +16,9 @@ class SaveData {
     * When a user wants to pull up information from their saved list,
     * the application will take the search criteria and search for it again
     */
-    private Float latitude;
-    private Float longitude;
-    private Integer elevation;
-    private Date fromDate;
-    private Date toDate;
+    private float latitude;
+    private float longitude;
+    private int elevation;
+    private Date date;
     private String time;
 }

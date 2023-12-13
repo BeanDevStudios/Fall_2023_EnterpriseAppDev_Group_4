@@ -1,16 +1,16 @@
-package service;
+package com.example.starynight.dao;
 
-import dto.SaveData;
 import java.util.List;
-public interface ISavesService {
+
+import com.example.starynight.dto.SaveData;
+
+public interface ISavesDAOStub {
 
     /*
     * Save a new set of data
     */
-
-    default void save(SaveData saveData) {
-
-    }
+    
+    void save(SaveData saveData);
 
     /*
      * Return all save data
@@ -18,4 +18,5 @@ public interface ISavesService {
      */
 
     List<SaveData> fetchAll();
+    
 }
