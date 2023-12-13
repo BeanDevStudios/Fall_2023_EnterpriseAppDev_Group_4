@@ -27,5 +27,55 @@
             <br>
             <img id="starMap">
 
+            <script>
+
+                const authString = btoa(`1b2912d5-ece2-47e4-b909-70498914bbc6:64dacd2f32a841875be9f6146a43030ea6a6fb87310b79e00e2bba739ab9a507ffdba48b79e077ea0b7f9410f73adff3f7c6c1fca435013bae77ba173306b2d7d62c7685e05c879d63634a48fe35747f39b41d4094b4916484d84c9c1e3256e45396925cee5386c97dd518cbf8122f73`);
+                const apiUrlStarChart = 'https://api.astronomyapi.com/api/v2/studio/star-chart'; 
+    
+                document.getElementById('GenerateStarMap').addEventListener('click', function() {
+    
+                    let time = document.getElementById('time').value
+                    let elevation = parseInt(document.getElementById('elevation').value)
+                    let date = document.getElementById('date').value
+                    let longitude = parseFloat(document.getElementById('longitude').value)
+                    let latitude = parseFloat(document.getElementById('latitude').value)
+    
+                    const viewSettings = {
+                        "style": "default",
+                        "observer": {
+                            "latitude": latitude,
+                            "longitude": longitude,
+                            "date": date,
+                            "time": time
+                        },
+                        "view": {
+                            "type": "area",
+                            "parameters": {
+                                "position": {
+                                    "equatorial": {
+                                        "rightAscension": 0,
+                                        "declination": elevation
+                                    }
+                                }
+                            }
+                        } 
+                    };
+    
+                    axios.post(apiUrlStarChart, viewSettings, {
+                    headers: {
+                        'Content-Type': 'application/json',
+                        Authorization: `Basic ${authString}` 
+                    }
+                    })
+                    .then(response => {
+                        document.getElementById('starMap').src = response.data.data.imageUrl
+                    })
+                    .catch(error => {
+                        console.error(error);
+                    });
+    
+                });
+    
+            </script>
     </body>
 </html>
