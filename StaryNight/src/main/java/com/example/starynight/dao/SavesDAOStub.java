@@ -1,14 +1,17 @@
-package service;
-
-import dto.SaveData;
-import org.springframework.stereotype.Service;
+package com.example.starynight.dao;
 
 import java.util.ArrayList;
 import java.util.List;
-@Service
-public class SavesService implements ISavesService {
+
+import org.springframework.stereotype.Repository;
+
+import com.example.starynight.dto.SaveData;
+
+@Repository
+public class SavesDAOStub implements ISavesDAOStub {
 
     ArrayList<SaveData> allSaveData = new ArrayList<>();
+    
     @Override
     public void save(SaveData saveData) {
         allSaveData.add(saveData);
